@@ -42,19 +42,18 @@
       margin-top: 1rem;
     }
   }
+}
 
-  &__btn--close-modal {
-    font-family: inherit;
-    color: inherit;
-    position: absolute;
-    top: 0.5rem;
-    right: 2rem;
-    font-size: 4rem;
-    cursor: pointer;
-    border: none;
-    background: none;
-  }
-
+.btn--close-modal {
+  font-family: inherit;
+  color: inherit;
+  position: absolute;
+  top: 0.5rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  border: none;
+  background: none;
 }
 
 .hidden {

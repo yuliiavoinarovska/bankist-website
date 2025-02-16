@@ -29,22 +29,24 @@
     margin-left: 4rem;
   }
 
-  &__link {
-    &-btn {
-      &:link,
-      &:visited {
-        padding: 0.8rem 2.5rem;
-        border-radius: 3rem;
-        background-color: var(--color-primary);
-        color: #222;
-      }
 
-      &:hover,
-      &:active {
-        background-color: var(--color-primary-darker);
-        color: #333;
-      }
-    }
+  
+  &__link {
+    // &--btn {
+    //   &:link,
+    //   &:visited {
+    //     padding: 0.8rem 2.5rem;
+    //     border-radius: 3rem;
+    //     background-color: var(--color-primary);
+    //     color: #222;
+    //   }
+
+    //   &:hover,
+    //   &:active {
+    //     background-color: var(--color-primary-darker);
+    //     color: #333;
+    //   }
+    // }
 
     &:link,
     &:visited {
@@ -55,5 +57,21 @@
       display: block;
       transition: all 0.3s;
     }
+  }
+}
+
+.nav__link--btn {
+  &:link,
+  &:visited {
+    padding: 0.8rem 2.5rem;
+    border-radius: 3rem;
+    background-color: var(--color-primary);
+    color: #222;
+  }
+
+  &:hover,
+  &:active {
+    background-color: var(--color-primary-darker);
+    color: #333;
   }
 }
